@@ -45,7 +45,7 @@
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0    &trans
 &kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                          &kp F7        &kp NUMBER_6  &kp N5        &kp NUMBER_4  &kp F11   &kp F12
 &kp GRAVE   &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                       &kp CARET     &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp RPAR  &kp TILDE
-&trans      &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans        &kp MINUS     &kp KP_PLUS   &kp LBRC      &kp RBRC  &kp PIPE
+&trans      &trans        &trans        &trans        &trans        &trans        &tog 0    &trans  &trans        &kp MINUS     &kp KP_PLUS   &kp LBRC      &kp RBRC  &kp PIPE
                                         &kp LCTRL     &kp LEFT_GUI  &trans        &trans    &trans  &trans        &trans        &trans
             >;
 
