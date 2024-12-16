@@ -22,7 +22,7 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                                 &kp N6  &kp N7             &kp N8     &kp N9   &kp N0    &kp GRAVE
+&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                                 &kp N6  &kp N7             &kp N8     &kp N9   &kp N0    &kp EQUAL
 &kp TAB    &kp Q   &kp W   &kp E     &kp R     &kp T                                  &kp Y   &kp U              &kp I      &kp O    &kp P     &kp MINUS
 &kp LCTRL  &kp A   &kp S   &kp D     &kp F     &kp G                                  &kp H   &kp J              &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z   &kp X   &kp C     &kp V     &kp B      &tog 1           &mo 2      &kp N   &kp M              &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
@@ -62,11 +62,11 @@
 
             display-name = "Raise";
             bindings = <
-&trans     &trans     &trans     &trans            &trans     &trans                         &trans       &trans             &trans        &trans    &trans     &trans
-&kp GRAVE  &kp LG(Q)  &kp LG(W)  &kp LEFT_GUI      &kp N4     &kp N5                         &kp N6       &kp PG_UP          &kp UP_ARROW  &kp N9    &kp N0     &trans
-&kp F1     &kp LG(A)  &kp LG(S)  &kp LEFT_CONTROL  &kp RIGHT  &kp LG(TAB)                    &kp MINUS    &kp LEFT           &kp DOWN      &kp UP    &kp RIGHT  &trans
-&kp F7     &kp F8     &kp LG(X)  &kp LG(C)         &kp LG(V)  &kp F12      &trans    &tog 0  &kp KP_PLUS  &kp PAGE_DOWN      &kp EQUAL     &kp LBKT  &kp RBKT   &kp BSLH
-                                 &trans            &trans     &trans       &trans    &trans  &trans       &kp RIGHT_CONTROL  &trans
+&trans     &trans     &trans     &trans            &trans          &trans                                  &trans       &trans             &trans        &trans     &trans     &trans
+&kp GRAVE  &kp LG(Q)  &kp LG(W)  &kp LEFT_CONTROL  &kp N4          &kp N5                                  &kp N6       &kp PG_UP          &kp UP_ARROW  &kp N9     &kp N0     &trans
+&kp F1     &kp LG(A)  &kp LG(S)  &kp LEFT_GUI      &kp LEFT_SHIFT  &kp LG(TAB)                             &kp MINUS    &kp LEFT           &kp DOWN      &kp RIGHT  &kp RIGHT  &trans
+&kp F7     &kp F8     &kp LG(X)  &kp LG(C)         &kp LG(V)       &kp F12      &trans             &tog 0  &kp KP_PLUS  &kp PAGE_DOWN      &kp EQUAL     &kp LBKT   &kp RBKT   &kp BSLH
+                                 &trans            &trans          &trans       &kp RIGHT_SHIFT    &trans  &trans       &kp RIGHT_CONTROL  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
